@@ -31,7 +31,24 @@ if (edad >= limVotar && ciudad === 'CDMX') {
 console.log('No puede Votar');
 }
 
+/////******** Cuarto ejercicio */
+var autor = "julioVerne";
 
+switch(autor) {
+  case "julioVerne":
+    console.log('Minerar');
+    break;
+  case "julioVerne":
+    console.log('Minerar');
+     break;
+  case "julioVerne":
+    console.log('Minerar');
+    break;
+  default:
+    console.log('No encontre lo que buscas');
+    break;
+
+}
 
 
 

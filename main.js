@@ -8,6 +8,21 @@ var puedeVotar;
 }
 console.log(puedeVotar)
 
+//*****Limite de edad &  */
+
+var edad = 18;
+var limVotar = 18;
+
+  if (edad >= limVotar) {
+	  console.log('Puede Votar');
+} else {
+  console.log('No puede Votar');
+}
+
+// ********* 
+
+
+
 
 
 //RETO 1 Operadores loogicos//

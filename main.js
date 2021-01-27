@@ -1,3 +1,4 @@
+/// ******* Primer ejercicio********////
 var edad = 17;
 var puedeVotar;
 
@@ -8,7 +9,7 @@ var puedeVotar;
 }
 console.log(puedeVotar)
 
-//*****Limite de edad &  */
+//*****Segundo ejercicio Limite de edad &  */
 
 var edad = 18;
 var limVotar = 18;
@@ -19,7 +20,17 @@ var limVotar = 18;
   console.log('No puede Votar');
 }
 
-// ********* 
+// *********3er ejercicio********////
+var edad = 18;
+var limVotar = 18;
+var ciudad = 'CDMX';
+
+if (edad >= limVotar && ciudad === 'CDMX') {
+  console.log('Puede Votar');
+} else {
+console.log('No puede Votar');
+}
+
 
 
 

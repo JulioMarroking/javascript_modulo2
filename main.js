@@ -1,3 +1,15 @@
+var edad = 17;
+var puedeVotar;
+
+  if (edad >= 18) {
+	  puedeVotar = "Puedes Votar";
+} else if (edad < 18) {
+	  puedeVotar = "No puedes votar";
+}
+console.log(puedeVotar)
+
+
+
 //RETO 1 Operadores loogicos//
 var time = 24;
 var greeting;
